@@ -1,4 +1,4 @@
-import { container, inject, injectable } from 'tsyringe';
+import { inject, injectable } from 'tsyringe';
 import { Request, Response } from 'express';
 
 import CountriesService from './countries.service';

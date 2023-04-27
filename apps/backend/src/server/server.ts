@@ -19,10 +19,11 @@ export class Server {
     const server = express();
 
     server.use(
-      cors({
-        origin: '*',
-        methods: '*',
-      })
+      // cors({
+      //   origin: '*',
+      //   methods: '*',
+      // })
+      cors()
     );
 
     server.use(express.json());

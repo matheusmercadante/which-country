@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  /* background-color: #9aa7b8; */
+  font-family: 'Castoro Titling', cursive;
+  color: #080909;
+}
