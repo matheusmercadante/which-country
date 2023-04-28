@@ -2,7 +2,7 @@
 
 Monorepo of a country information search application in a very simple way.
 
-[LIVE-PREVIEW](https://nx.dev/](https://which-country-zeta.vercel.app)
+[LIVE-PREVIEW](https://which-country-zeta.vercel.app)
 
 ## Technologies used
 
