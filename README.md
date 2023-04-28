@@ -1,8 +1,8 @@
 # Which Country?
 
-Descrição do projeto.
+Monorepo of a country information search application in a very simple way.
 
-[PREVIEW](https://nx.dev/)
+[LIVE-PREVIEW](https://nx.dev/](https://which-country-zeta.vercel.app)
 
 ## Technologies used
 
@@ -14,8 +14,6 @@ Descrição do projeto.
 - [NestJS](https://nestjs.com/)
 
 ## Environment Setting
-
-Descreva aqui como configurar o ambiente de desenvolvimento, incluindo a instalação de dependências e outras etapas necessárias para executar o projeto localmente.
 
 ### Prerequisites
 
@@ -61,8 +59,6 @@ npm run frontend:dev
 ```
 
 ## How to test the application
-
-Descreva aqui como testar o projeto.
 
 ### Backend
 
