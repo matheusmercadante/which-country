@@ -21,7 +21,12 @@ const Input: React.FC<InputProps> = ({ name, label, ...rest }) => {
   return (
     <>
       {label && <label htmlFor={fieldName}>{label}</label>}
-      <input id={fieldName} ref={inputRef} defaultValue={defaultValue} {...rest} />
+      <input
+        id={fieldName}
+        ref={inputRef}
+        defaultValue={defaultValue}
+        {...rest}
+      />
       {error && <span>{error}</span>}
     </>
   );
