@@ -13,6 +13,7 @@
         "compiler": "tsc",
         "outputPath": "dist/apps/backend",
         "main": "apps/backend/src/main.ts",
+        "generatePackageJson": true,
         "tsConfig": "apps/backend/tsconfig.app.json",
         "isolatedConfig": true,
         "webpackConfig": "apps/backend/webpack.config.js"
@@ -57,6 +58,10 @@
           "codeCoverage": true
         }
       }
+    },
+    "docker-build": {
+      "dependsOn": ["build"],
+      "command": "docker build -f apps/backend/Dockerfile . -t backend"
     }
   },
   "tags": []
